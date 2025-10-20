@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Taurus • Token</title>
+    <meta name="description" content="Taurus token — strong, steady, and built for the herd." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Floating decorative shapes -->
+    <div class="shape bubble" aria-hidden="true"></div>
+    <div class="taurus-parallax">
+        <img src="assets/taurus.gif" alt="Taurus Symbol" class="taurus-image">
+    </div>
+    <header>
+        <div class="brand">
+            <img src="assets/logo.png" alt="Taurus logo" id="logo">
+            <div>
+                <h1>Taurus</h1>
+                <div class="subtitle">$TAURUS</div>
+            </div>
+        </div>
+
+        <nav>
+            <a class="ghost" href="#hero">Lore</a>
+            <a class="ghost" href="#economics">Taurconomics</a>
+            <a class="ghost" href="#how-to-buy">How to Buy</a>
+            <a class="ghost" href="#roadmap">Roadmap</a>
+            <a class="btn" href="#buy">Buy</a>
+        </nav>
+    </header>
+    <div class="container">git init
+
+        <section id="contract" class="panel reveal">
+            <div class="contract-wrapper">
+                <h2 class="contract-title">$TAURUS</h2>
+                <p class="contract-address">CA: <span id="contractAddress">TBA</span></p>
+                <button class="btn copy-btn" onclick="copyCA()">Copy Contract</button>
+            </div>
+        </section>
+
+        <!-- Sections -->
+        <main id="main">
+            <section id="hero" class="panel reveal hero">
+                <div class="hero-card reveal" id="heroCard">
+                    <span class="kicker">TAURUS LORE</span>
+                    <h2>Steady. Strong. For the herd — TAURUS</h2>
+                    <p class="lead">When lightning hit Base, a blue bull stepped out holding a sign: “Welcome.”
+                        Not here to gatekeep — here to open gates.
+                        Born on PumpBase, $TAURUS smashes old barriers — no coding headaches, no high costs, no closed
+                        doors.
+                        Horns = momentum. Shield = sniper protection. Sparks = custom rewards.
+                        With fair liquidity sharing, the arena stays open for all.
+                        $TAURUS is the mascot of builders and meme makers charging forward, pumping together.</p>
+
+                    <div class="cta-row">
+                        <a class="btn" id="buy" href="#how-to-buy">How to Buy</a>
+                        <a class="ghost" href="https://t.me/yourchannel" target="_blank">Telegram</a>
+                        <a class="ghost" href="https://x.com/yourhandle" target="_blank">X</a>
+                    </div>
+                </div>
+
+                <div class="hero-art reveal" id="heroArt">
+                    <div class="orb" aria-hidden="true"></div>
+                    <img src="assets/hero.png" alt="Taurus hero art">
+                </div>
+            </section>
+            <section id="economics" class="panel reveal economics-section">
+                <!-- Title GIF background -->
+                <div class="econ-title-wrapper">
+                    <img src="assets/title-holder.gif" alt="Economics Title Background" class="econ-title-bg">
+                    <h2 class="econ-title">$TAURCONOMICS</h2>
+                </div>
+
+                <!-- Description paragraph -->
+                <p class="econ-description">
+                    The TAURUS ecosystem is designed to be sustainable, fair, and rewarding for the entire herd.
+                    Built on Base, it empowers holders through transparent tokenomics, fair liquidity sharing, and
+                    incentives that grow with community momentum. No gatekeeping — just collective power and steady
+                    strength.
+                </p>
+
+                <!-- Info boxes -->
+                <div class="econ-stats">
+                    <div class="econ-box">
+                        <h3>Total Supply</h3>
+                        <p>1,000,000,000 $TAURUS</p>
+                    </div>
+                    <div class="econ-box">
+                        <h3>Transaction Tax</h3>
+                        <p>5% </p>
+                    </div>
+                    <div class="econ-box">
+                        <h3>Holder Rewards</h3>
+                        <p>Automatic reflections to loyal holders via WETH</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="how-to-buy" class="panel reveal how-to-buy-section">
+                <div class="htb-title-wrapper">
+                    <img src="assets/title-holder.gif" alt="How to Buy title background" class="htb-title-bg">
+                    <h2 class="htb-title">HOW TO BUY</h2>
+                </div>
+
+                <div class="htb-steps">
+                    <!-- Step 1 -->
+                    <div class="htb-card left">
+                        <img src="assets/bull-wallet.png" alt="Bull with wallet" class="htb-bull">
+                        <div class="htb-text">
+                            <h3>🐂 SET UP A WALLET</h3>
+                            <p>
+                                Download and install a Web3 wallet (Coinbase, MetaMask, Rainbow, WalletConnect, etc.).
+                                Create a new wallet and securely back up your recovery phrase.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="htb-card right">
+                        <div class="htb-text">
+                            <h3>⚡ BUY ETH ON BASE</h3>
+                            <p>
+                                Purchase ETH through a centralized exchange such as Coinbase using their official
+                                platform.
+                                Once the transaction is complete, transfer your ETH to your wallet on Base Mainnet.
+                            </p>
+                        </div>
+                        <img src="assets/bull-coin.png" alt="Bull with ETH coin" class="htb-bull">
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="htb-card left">
+                        <img src="assets/bull-swap.png" alt="Bull swapping tokens" class="htb-bull">
+                        <div class="htb-text">
+                            <h3>🔁 SWAP ETH TO $TAURUS</h3>
+                            <p>
+                                Open your wallet or go to Uniswap, paste the official $TAURUS contract address, and swap
+                                your ETH
+                                for $TAURUS tokens.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="roadmap" class="panel reveal roadmap-section">
+                <div class="roadmap-title-wrapper">
+                    <img src="assets/title-holder.gif" alt="Roadmap Title Background" class="roadmap-title-bg">
+                    <h2 class="roadmap-title">THE CHARGE AHEAD</h2>
+                </div>
+
+                <div class="roadmap-timeline">
+                    <!-- Phase 1 -->
+                    <div class="roadmap-item left">
+                        <div class="roadmap-content">
+                            <h3>PHASE 1 — IGNITION</h3>
+                            <p>Launch on Base. Branding reveal. Community ignition. Contract verification. Listings on
+                                BaseSwap & DEXTools.</p>
+                        </div>
+                    </div>
+
+                    <!-- Phase 2 -->
+                    <div class="roadmap-item right">
+                        <div class="roadmap-content">
+                            <h3>PHASE 2 — MOMENTUM</h3>
+                            <p>Marketing push. Partnerships with Base builders. First wave of meme competitions. Holder
+                                rewards campaign begins.</p>
+                        </div>
+                    </div>
+
+                    <!-- Phase 3 -->
+                    <div class="roadmap-item left">
+                        <div class="roadmap-content">
+                            <h3>PHASE 3 — EXPANSION</h3>
+                            <p>Exchange listings. NFT collection. Cross-chain utilities. Strengthened liquidity pools.
+                                Bull-run initiatives.</p>
+                        </div>
+                    </div>
+
+                    <!-- Phase 4 -->
+                    <div class="roadmap-item right">
+                        <div class="roadmap-content">
+                            <h3>PHASE 4 — LEGACY</h3>
+                            <p>Governance launch. Taurus ecosystem tools. DAO treasury. Long-term builder support and
+                                open-gate initiatives.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <footer class="footer-section">
+        <div class="footer-inner">
+            <!-- Left -->
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Logo">
+                    <h3>$Taurus</h3>
+                </div>
+                <div class="footer-tagline">© 2025 Taurus. All rights reserved.</div>
+            </div>
+
+            <!-- Right -->
+            <div class="footer-right">
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Twitter</a>
+                    <a href="#" class="footer-link">Telegram</a>
+                    <a href="#" class="footer-link">Dexscreener</a>
+                    <a href="#" class="footer-link">Pumpbase</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-moto">Steady. Strong. For the Herd. — Built on PumpBase.</div>
+        </div>
+
+        <div class="footer-glow"></div>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
