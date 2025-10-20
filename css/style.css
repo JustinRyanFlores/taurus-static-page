@@ -660,16 +660,15 @@ h2 {
 }
 
 .econ-title {
-    position: absolute;
+position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: #00d0ff;
-    text-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
-    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0 0 10px #00c6ff, 0 0 20px #0072ff;
 }
 
 .econ-description {
